@@ -1,6 +1,6 @@
 import React, {useCallback, useState} from 'react';
 import styles from './../Blocks.module.scss';
-import {translateRequest} from "../../redux/slices/tranlateSlice";
+import {translateRequest} from "../../redux/slices/translateSlice";
 import {useDispatch} from "react-redux";
 import debounce from 'lodash.debounce';
 import {RU} from 'country-flag-icons/react/3x2'
