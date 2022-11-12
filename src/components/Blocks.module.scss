@@ -1,0 +1,35 @@
+.wrapper {
+
+  .header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    background-color: dodgerblue;
+    padding: 10px 0;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+
+    .flag {
+      height: 30px;
+      margin-left: 15px;
+    }
+  }
+
+  .input {
+    display: flex;
+    padding: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+  }
+
+  .output {
+    display: flex;
+    padding: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    border: 1px solid black;
+  }
+}
